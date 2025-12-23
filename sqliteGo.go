@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/mactsouk/sqlite06"
 	//"github.com/mactsouk/sqlite06"
-	//"github.com/mactsouk/sqlite06"
-	"github.com/pavelstarovoitov/sqlite06"
+	//"github.com/pavelstarovoitov/sqlite06"
 )
 
 var MIN = 0

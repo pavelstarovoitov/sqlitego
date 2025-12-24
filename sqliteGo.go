@@ -36,7 +36,9 @@ func getString(length int64) string {
 
 func main() {
 	sqlite06.Filename = "ch06.db"
+	fmt.Println("Before ListUser()")
 	data, err := sqlite06.ListUsers()
+	fmt.Println("After ListUser()")
 	if err != nil {
 		fmt.Println("ListUsers():", err)
 		return
